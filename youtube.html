@@ -2,12 +2,25 @@
 <html>
     <head>
         <title>youtube clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
         <style>
+
+            div
+            {
+                margin-top:0px;
+                margin-bottom: 0px;
+            }
+            p{
+                font-family: Roboto, Arial;
+            }
             .search-bar{
              display:block;   
             }
             .thumbnail{
                 width:300px;
+                margin-bottom: 0px;
             }
             .video-preview{
                 width: 300px;
@@ -17,66 +30,97 @@
                 margin-right: 15px;
             }
             .video-title{
-                width: 300px;
+             margin-top: 0px;   
+             font-size:14px;
+             font-weight: 500;
+             line-height:20px;
+
             }
             
+           .channel-picture{
+            display: inline-block;
+            width:50px;
+            vertical-align: top;
+            margin-top: 10px;
+           }
+           
+           .video-info{
+            display:inline-block;
+            width:240px;
+            margin-top: 10px;
+
+           }
+           .profile-picture{
+            width:40px;
+            border-radius:25px;
+            
+           }
+           .video-author{
+            font-size: 12px;
+            color:grey;
+            margin-bottom:0px;
+           }
+           .video-status{
+            margin-top: 5px;
+            font-size: 12px;
+            color: grey;
+           }
         </style>
     </head>
     <body>    
         <input class="search-bar" type="text" placeholder="Search">
 
-        <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="unable to load the image">
-            <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">
-                marques Brownlee   
-            </p>
-            <p class="video-sttus">
-                3.4M views.6 months ago
-            </p> 
-        </div>
-
-        <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="unable to load the image">
-            <p class="video-title">
-                Try Not To Laugh Challenge#9
-            </p>
-            <p class="video-author">
-                    markipiler   
-            </p>
-            <p class="video-sttus">
-                19M views.4 years ago
-            </p> 
-        </div>
-
-        <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="unable to load the image">
-            <p class="video-title">
-                Try Not To Laugh Challenge#9
-            </p>
-            <p class="video-author">
-                    markipiler   
-            </p>
-            <p class="video-sttus">
-                19M views.4 years ago
-            </p> 
-        </div>
-
       
         <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="unable to load the image">
-            <p class="video-title">
-                Try Not To Laugh Challenge#9
-            </p>
-            <p class="video-author">
-                    markipiler   
-            </p>
-            <p class="video-sttus">
-                19M views.4 years ago
-            </p> 
+            <div class="thumbnail-row"> <!-- thumbnail image-->
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="unable to load the image">
+            </div>
+                
+               
+            <div> 
+                <div class="channel-picture"> 
+                    <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="profile-image">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee   
+                    </p>
+                    <p class="video-status">
+                        3.4M views.6 months ago
+                    </p>        
+                </div>                
+            </div>           
         </div>
+
+
+       <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class= "thumbnail" src="thumbnails/thumbnail-2.webp" alt="unable to load the image">
+        </div>
+        <div>
+            <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">
+                    Markpiler
+                </p>
+                <p class="video-status">
+                    19M views . 4 years ago
+                </p>
+            </div>
+
+        </div>
+       </div>
+        
+
+      
 
     </body>
 </html>
