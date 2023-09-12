@@ -8,8 +8,16 @@
                 grid-template-columns: 200px 75px;
             }
             .second-container{
+                margin-top: 10px;
                 display: grid;
                 grid-template-columns: 50px 1fr 75px;
+            }
+            .third-container{
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap:  10px;
             }
         </style>
     </head>
@@ -23,6 +31,17 @@
             <div style="background-color: lightblue;">col1</div>
             <div style="background-color: lightpink;">col2</div>
             <div style="background-color: lightblue;">col3</div>
+        </div>
+
+        <div class="third-container">
+            <div style="background-color: lightpink;">col1</div>
+            <div style="background-color: lightpink;">clo2</div>
+            <div style="background-color: lightpink;">col3</div>
+            <div style="background-color: lightpink;">col4</div>
+            <div style="background-color: lightpink;">col1</div>
+            <div style="background-color: lightpink;">col2</div>
+            <div style="background-color: lightpink;">col3</div>
+            <div style="background-color: lightpink;">col4</div>
         </div>
     </body>
 </html>

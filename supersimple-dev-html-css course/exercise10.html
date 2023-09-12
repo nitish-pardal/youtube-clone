@@ -18,20 +18,27 @@
                 margin-right: 0;
                 margin-left: 0;
             }
+            .initial-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
             .base-container
             {   margin-left:20px;
-                width: 200px;
+                width:250px;
                 height: 325px;
                 box-shadow: 1px 2px 6px 1px grey;
-                display: inline-block;
+            
             
             }
             
             .post-image-container{
-                width:150;
+                width:250px;
+                height:200px;
+
             }
             .post-image{
                 width:100% ;
+                height:200px;
     
             }
             .first-row{
@@ -43,7 +50,8 @@
                 margin-bottom:4px;
             }
             .profile-image{
-                width:30px;
+
+                width: 30px;;
                 border-radius:20px;
                 display: inline-block;
                 margin-right:5px;
@@ -71,58 +79,67 @@
                 padding-bottom: 8px;
                 font-size: 17px;
                 border-radius:5px;
-                margin-left: 5px;
+                margin-left: 7px;
             }
         </style>
     </head>
     <body>
-        <div class="base-container">
-            <div class="post-image-container">
-                <img class="post-image" src="resources/cat-profileimage.jpg" alt="unable to load the image">
-            </div>
-            <div class="pofile-description">
-                <div class="first-row">
-                    <p class="name">Oliver</p>
-                </div>
-                <div class="second-row">
-                   <img class="profile-image" src="resources/cat-profileimage.jpg" alt="unable to load the image">  
-                    <p class="description">2 mutual friends</p>
-                </div>
-                <button class="button"> Add Friend</button>
-            </div>
-        </div>
-        <div class="base-container">
-                <div class="post-image-container">
-                    <img class="post-image" src="resources/cat-profileimage-2.jpeg" alt="unable to load the image">
-                </div>
-                <div class="pofile-description">
-                    <div class="first-row">
-                        <p class="name">Meow</p>
-                    </div>
-                    <div class="second-row">
-                       <img class="profile-image" src="resources/cat-profileimage-2.jpeg" alt="unable to load the image">  
-                        <p class="description">3 mutual friends</p>
-                    </div>
-                    <button class="button"> Add Friend</button>
-                </div>
-            </div>
-        </div>
+        <div class="initial-container">
 
+            <!--first display-->
             <div class="base-container">
                 <div class="post-image-container">
-                    <img class="post-image" src="resources/cat-profileimage-3.jpg" alt="unable to load the image">
+                    <img class="post-image" src="resources/cat-profileimage.jpg" alt="unable to load the image">
                 </div>
                 <div class="pofile-description">
                     <div class="first-row">
-                        <p class="name">Minni</p>
+                        <p class="name">Oliver</p>
                     </div>
                     <div class="second-row">
-                       <img class="profile-image" src="resources/cat-profileimage-3.jpg" alt="unable to load the image">  
-                        <p class="description">5 mutual friends</p>
+                       <img class="profile-image" src="resources/cat-profileimage.jpg" alt="unable to load the image">  
+                        <p class="description">2 mutual friends</p>
                     </div>
                     <button class="button"> Add Friend</button>
                 </div>
             </div>
+
+            <!--second-display-->
+            <div class="base-container">
+                    <div class="post-image-container">
+                        <img class="post-image" src="resources/cat-profileimage-2.jpeg" alt="unable to load the image">
+                    </div>
+                    <div class="pofile-description">
+                        <div class="first-row">
+                            <p class="name">Meow</p>
+                        </div>
+                        <div class="second-row">
+                           <img class="profile-image" src="resources/cat-profileimage-2.jpeg" alt="unable to load the image">  
+                            <p class="description">3 mutual friends</p>
+                        </div>
+                        <button class="button"> Add Friend</button>
+                    </div>
+                </div>
+    
+                <!--third display-->
+                <div class="base-container">
+                    <div class="post-image-container">
+                        <img class="post-image" src="resources/cat-profileimage-3.jpg" alt="unable to load the image">
+                    </div>
+                    <div class="pofile-description">
+                        <div class="first-row">
+                            <p class="name">Minni</p>
+                        </div>
+                        <div class="second-row">
+                           <img class="profile-image" src="resources/cat-profileimage-3.jpg" alt="unable to load the image">  
+                            <p class="description">5 mutual friends</p>
+                        </div>
+                        <button class="button"> Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        
     </body>
 </html>
