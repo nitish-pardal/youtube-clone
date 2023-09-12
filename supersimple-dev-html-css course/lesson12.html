@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lessson 12</title>
+        <style>
+            .first-flexbox{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+            }
+            .second-flexbox{
+                display: flex;
+                flex-direction: row;
+
+            }
+            .third-flexbox{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+            .div1{
+                background-color: lightpink;
+            }
+            .fourth-flexbox{
+                margin-top: 10px;
+                border-width: 1px;
+                height: 50px;
+                border-style: solid;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .item1{
+                background-color: lightpink;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- first flexbox -->
+        <div class="first-flexbox">
+            <div style="
+                background-color: lightblue;
+                width: 200px;">200px</div>
+            <div style="background-color: lightpink;
+            width: 75px;">75px</div>
+        </div>
+        <!-- second flexbox -->
+        <div class="second-flexbox">
+            <div style="background-color: lightblue;
+            width: 50px;">item 1</div>
+            <div style="background-color: lightpink;
+            flex:1;">item 2</div>
+            <div style="background-color: lightblue;
+            width: 75px;"> item 3</div>
+        </div>
+        <!-- third flex-box -->
+        <div class="third-flexbox">
+         <div class="div1">item1</div>
+         <div class="div1">item2</div>
+         <div class="div1">item3</div>
+         <div class="div1">item4</div>
+        </div>
+         <!-- fourth flexbox -->
+         <div class="fourth-flexbox">
+            <div class="item1">item1</div>
+            <div class="item1">item1</div>
+         </div>
+    </body>
+</html>

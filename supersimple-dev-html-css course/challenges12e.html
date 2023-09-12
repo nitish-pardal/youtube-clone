@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> challenge exercise </title>
+        <style>
+            .base-container{
+                width: 500px;
+                height: 160px;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 6px;
+                border-color: lightgray;
+            }
+            .flex-box{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-top:10px;
+                margin-right:10px;
+                
+                margin-bottom: 10px;
+
+            }
+            .text{
+                padding-left: 10px;
+                font-family: arial;
+                font-size: 25px;
+                font-weight: 500;
+                margin-left: 10px;
+            }
+            .notification{
+                background-color:rgba(61, 22, 239, 0.784);
+                padding-top:4px;
+                padding-bottom: 4px;
+                padding-left: 15px;
+                padding-right: 15px;
+                color:white;
+                font-family: Arial;
+                font-weight: 700;
+                font-size: 20px;
+                border-radius: 20px;
+                margin-right:10px;
+                
+
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="base-container">
+            <div class="flex-box">
+                <div class="text">Home</div>
+                <div class="notification">14</div>
+            </div>
+
+            <div class="flex-box">
+                <div class="text">Notifications</div>
+                <div class="notification">3</div>
+            </div>
+
+            <div class="flex-box">
+                <div class="text">Messages</div>
+                <div class="notification">5</div>
+            </div>
+        </div>
+
+    </body>
+</html>
