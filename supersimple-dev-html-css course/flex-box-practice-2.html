@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flex-box-practice2</title>
+    </head>
+    <style>
+        .container{
+            display:block;
+            width: 420px;
+            height:300px;
+            margin-top:10px;
+            margin-left: 20px;
+            box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+            border-radius: 5px;
+        }
+        .inbox-label{
+            padding-top: 10px;
+            margin-bottom:20px;
+            font-family:arial;
+            font-size:14px;
+            margin-left:5px;
+            color: grey;
+        }
+        .email
+        {   
+            display: flex;
+            height: 80px;
+            margin-left:15px;
+            width: 400px;
+           
+                }        
+        .sender-image-container{
+            width: 61px;
+            padding-top: 5px;
+            padding-right: 7px;
+        }
+        .sender-image{
+            width:47px;
+            border-radius:25px;
+        }
+        .sender-description{
+            line-height: 20px;
+            height: 100%;
+            padding-right: 20px;
+            width: 400px;
+        }
+        .row1{
+            display: flex;
+           justify-content: space-between;
+        }
+        .sender-name{
+            font-weight: 900;
+            font-family: arial;
+        }
+        .send-time{
+            color:grey;
+            font-size: 13px;
+            font-family: arial;
+        }
+        .row2{
+            width: 100%;
+            padding-top: 5px;
+            font-family:arial;
+            font-weight:1000;
+            font-size:13px;
+        }
+        .row3{
+            font-family: arial;
+            font-size:14px ;
+            color:grey;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="inbox-label">ALL INBOXES</div>
+            <!-- first email -->
+            <div class="email">
+                <div class="sender-image-container">
+                    <img class="sender-image" src="resources/cat-profileimage.jpg" alt="">
+                </div>
+                <div class="sender-description">
+                    <div class="row1">
+                        <div class="sender-name">Chewy Promotions</div>
+                        <div class="send-time">4:58 PM</div>
+                    </div>
+                    <div class="row2">Biggest sales ot the year!</div>
+                    <div class="row3">hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+            <!-- second email -->
+            <div class="email">
+                <div class="sender-image-container">
+                    <img class="sender-image" src="resources/cat-profileimage.jpg" alt="">
+                </div>
+                <div class="sender-description">
+                    <div class="row1">
+                        <div class="sender-name">Chewy Promotions</div>
+                        <div class="send-time">4:58 PM</div>
+                    </div>
+                    <div class="row2">Biggest sales ot the year!</div>
+                    <div class="row3">hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+            <!-- third email -->
+            <div class="email">
+                <div class="sender-image-container">
+                    <img class="sender-image" src="resources/cat-profileimage-3.jpg" alt="">
+                </div>
+                <div class="sender-description">
+                    <div class="row1">
+                        <div class="sender-name">Netflix</div>
+                        <div class="send-time">9:00 AM</div>
+                    </div>
+                    <div class="row2">Here's what's coming soon to Netflix</div>
+                    <div class="row3">Brand new movies and shows, old favourites...</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
