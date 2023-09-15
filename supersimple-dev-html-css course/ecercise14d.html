@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>postion-practice</title>
+        <style>
+            .right-sidebar{
+                background-color: green;
+
+                position: fixed;
+                right: 10px;
+                width: 100px;
+                bottom:0px;
+                top: 0px;
+                color: white;
+
+            }
+            .entire-page
+            {
+                display: flex;
+                position: fixed;
+                right: 0;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.6);
+                justify-content: center;
+                align-items: center;
+
+            }
+            .modal{
+                height: 150px;
+                width: 400px;
+                background-color: whitesmoke;
+                border-radius: 10px;
+
+
+            }
+            .modal-title{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                padding-top: 20px;
+                padding-left: 15px;
+
+            }
+            .modal-description{
+                font-family: arial;
+                font-size:18px;
+                font-weight:500;
+                padding-top: 10px;
+                padding-left: 15px;
+                padding-bottom: 10px;
+
+            }
+            button{
+                margin-left: 15px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="right-sidebar">right sidebar</div>
+        <div class="entire-page">
+            <div class="modal">
+                <div class="modal-title">Modal Title</div>
+                <div class="modal-description">This is a modal</div>
+                <button>close</button>
+            </div>
+        </div>
+    </body>
+</html>

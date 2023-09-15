@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>postion-practice</title>
+        <style>
+            .header{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: fixed;
+                right:0;
+                left:0;
+                top:0;
+                height: 60px;
+               
+
+
+            }
+            .left-section{
+                display:flex;
+                align-items: center;
+            }
+            .image{
+                width: 35px;
+                border-radius:20px;
+                margin-left:50px;
+                margin-right: 10px;
+            }
+            .profile-name{
+                font-family: arial;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .right-section{
+                display:flex;
+                margin-right: 40px;
+
+            }
+            .add-friend-button{
+                color:white;
+                background-color: rgba(55, 55, 228, 0.914);
+            
+            }
+            .left-header-1{
+                position: fixed;
+                top:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+
+                 <img class="image" src="resources/cat-profileimage.jpg" alt="unable to load the image">                
+                <div class="profile-name">
+                    Oliver cat
+                </div>
+            </div>
+
+            <div class="right-section">
+                <button class="add-friend-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+
+    </body>
+</html>
