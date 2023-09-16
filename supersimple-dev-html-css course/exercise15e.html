@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>challenge-exercise</title>
+        <style>
+            .image-container{
+                background-color:rgb(174, 174, 174);
+                display:inline-block;
+                width: 300px;
+                height:350px;
+                position: relative;
+                  
+            }
+            .image{
+                mix-blend-mode: multiply;
+                padding-top:20px;
+                z-index: 100;
+            }
+            .offer{
+                background-color:black;
+                position: absolute;
+                    top:10px;
+                    right:0;
+                color:white;
+                padding-left:10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+            }
+            .button-container{
+               
+                background-color:rgba(255,255,255,0.7); 
+                
+                height: 100px;
+                width: 300px;
+                position: absolute;
+                    bottom: 0;
+                justify-content: center;
+              
+                
+            }
+            .add-to-cart{
+                margin-top:25px;
+                margin-left: 100px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+              vertical-align: center;
+                opacity: 1;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image-container">
+            <img src="resources/shirt-image.jpg" alt="unable to load the image" class="image">
+            <div class="offer">20% OFF</div>
+            <div class="button-container">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
