@@ -25,21 +25,60 @@
                 <input class="search-bar" type="text" placeholder="Search">
                 <button class="search-button">
                     <img  class="search-icon" src="icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
                 </button>
                 <button class="voice-search-button">
                     <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="unable to load the menu">
+                    <div class="tooltip">Search With Your Voioce</div>
                 </button>
             </div>
             <div class="right-section">
-                <img class="upload-icon" src="icons/upload-icon.svg" alt="unable to load the upload icon">
-                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="unable to load the youtube apps">
-                <img class="notifications-icon" src="icons/notifications.svg" alt="unable to load the notifications">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload-icon.svg" alt="unable to load the upload icon">
+                    <div class="tooltip">Create</div>
+                </div>
+               <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="unable to load the youtube apps">
+                    <div class="tooltip">youtube-apps</div>
+               </div>
+               
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg" alt="unable to load the notifications">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+               
                 <img class="current-user-picture" src="channel-pictures/my-channel-profile-image.jpeg" alt="unable to load the image">
             </div>
         </div>
 
         <div class="sidebar">
-            side-bar
+            
+            <div class="sidebar-link">
+                <img src="icons/home-icon.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img  src="icons/explore-icon.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions-icon.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals-icon.svg" alt="">
+                <div>originals</div>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="icons/youtube-music-icon.svg" alt="">
+                <div>youTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library-icon.svg" alt="">
+                <div>Library</div>
+            </div>
         </div>
         
 
@@ -49,22 +88,22 @@
             <!-- First video preview -->
             <div class="video-preview">
                 <div class="thumbnail-row"> <!-- thumbnail image-->
-                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="unable to load the image">
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="unable to load the image"></a>
                     <div class="video-time">14:20</div>
                 </div>
                     
                    
                 <div class="video-info-grid">  
                     <div class="channel-picture"> 
-                        <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="profile-image">
+                        <a href="https://www.youtube.com/c/mkbhd"><img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="profile-image"></a>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
                             Talking Tech and AI with Google CEO Sundar Pichai!
                         </p>
                         <p class="video-author">
-                            Marques Brownlee   
-                        </p>
+                                Marques Brownlee  
+                            </p> 
                         <p class="video-status">
                             3.4M views.6 months ago
                         </p>        
@@ -75,12 +114,13 @@
     
             <div class="video-preview"> <!--second video-preview-->
                 <div class="thumbnail-row">
-                    <img class= "thumbnail" src="thumbnails/thumbnail-2.webp" alt="unable to load the image">
+                    <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                        <img class= "thumbnail" src="thumbnails/thumbnail-2.webp" alt="unable to load the image"></a>
                     <div class="video-time">8:22</div>
                 </div>
              <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+                   <a href="https://www.youtube.com/c/markiplier"></a> <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
                 </div>
                     <div class="video-info">
                         <p class="video-title">
