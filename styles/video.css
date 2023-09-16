@@ -107,6 +107,6 @@ color: grey;
 .tooltip-info{
     color:grey;
 }
-.channel-picture-container:hover .tooltip{
+.channel-picture:hover .tooltip{
     opacity: 1;
 }
