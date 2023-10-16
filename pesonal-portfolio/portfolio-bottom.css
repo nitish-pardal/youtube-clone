@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.bottom-header{
+
+  position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+  justify-content: center;
+}
+.line{
+  border-top:2px solid white;
+  width: 100%;
+  margin:0 10px ;
+  display: block;
+  position: fixed;
+  bottom:240px;
+}
+.my-skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom ,rgb(6, 241, 245),rgb(11, 112, 228));
+  -webkit-background-clip: text;
+  background-clip:text;
+}
+  
+.my-skills-para{
+
+  display:block;
+  font-size:40px;
+  margin:0;
+  font-family: poppins;
+  color:transparent;
+ 
+}
+.skills-images-container{
+  display:flex;
+  justify-content: center;
+
+}
+.skills-images{
+  width:50px;
+  margin:20px 20px 0px 30px;
+
+}
+.contact-details-container{
+  display:block;
+  margin-top:30px;
+  background-image: linear-gradient(to bottom ,rgb(6, 241, 245),rgb(11, 112, 228));
+  -webkit-background-clip: text;
+  background-clip:text;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+.email-container{
+  display: flex;
+  color:transparent;
+  justify-content: center;
+  margin: 0;
+  padding:0
+
+}
+.email{
+  margin:0;
+  padding:0;
+  }
+.contact-container{
+  display: flex;
+  justify-content: center;
+  margin:0;
+  margin-top:-10px;
+  color:transparent;
+}
+.india-flag{
+  width:20px;
+  display: inline-block;
+  margin-left:20px ;
+}
