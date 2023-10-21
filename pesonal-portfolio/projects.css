@@ -1,0 +1,33 @@
+*{
+  color: white;
+  margin:0;
+}
+.projects-section{
+border:2px solid blue;
+display: flex;
+justify-content: center;
+}
+
+.projects-heading{
+  display: block;
+font-size:35px;
+background-image: linear-gradient(to top ,rgb(16, 239, 243),rgb(11, 112, 228));
+  -webkit-background-clip: text;
+  background-clip:text;
+color:transparent;
+text-align: center;
+
+}
+.projects-grid{
+  margin-top:50px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  row-gap:50px;
+  column-gap: 100px;
+
+}
+
+.top-div{
+  display: flex;
+  
+}
