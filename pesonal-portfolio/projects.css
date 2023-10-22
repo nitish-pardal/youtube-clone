@@ -8,7 +8,6 @@
 display: flex;
 justify-content: center;
 margin-bottom:400px;
-z-index: -1;
 margin-top: 20px;
 }
 
@@ -77,13 +76,24 @@ text-align: center;
   border:none;
   width:20px;
   height:25px;
-
+  cursor:pointer;
   text-align: center;
+}
+.project-link-button:hover{
+  border-bottom: 1px solid whitesmoke;
+  cursor:pointer;
 }
 .project-img-link{
   width: 20px;
   height:20px;
   border:none;
   
+}
+.arrow{
+  margin-left :10px;
+}
+.technologies-used{
+  font-size: 14px;
+  color:rgb(25, 203, 234);
 }
 
