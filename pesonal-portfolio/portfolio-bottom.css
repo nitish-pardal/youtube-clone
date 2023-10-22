@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-  height: 3000px;
-}
+
 .footer{
 
   justify-content: center;
@@ -37,7 +35,7 @@ body{
 
 }
 .skills-images{
-  width:50px;
+  width:40px;
   margin:20px 20px 0px 30px;
 
 }
